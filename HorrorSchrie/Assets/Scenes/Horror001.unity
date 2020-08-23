@@ -415,6 +415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1121680977}
   - component: {fileID: 1121680978}
+  - component: {fileID: 1121680979}
   m_Layer: 0
   m_Name: TorchIllumination
   m_TagString: Untagged
@@ -497,6 +498,24 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!111 &1121680979
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121680976}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: b1f4a42b9c207244b8ea132bb43391a6, type: 2}
+  - {fileID: 7400000, guid: cf9d32abee7ad824ead58407cee506ce, type: 2}
+  - {fileID: 7400000, guid: 60bba18b136bb1948bf6219c6d98bc78, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1131335336
 GameObject:
   m_ObjectHideFlags: 0
@@ -5665,6 +5684,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7724394ba8fb1194f90cba8d3233f913, type: 3}
+--- !u!1 &1271286950 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1309198273215432, guid: 7724394ba8fb1194f90cba8d3233f913, type: 3}
+  m_PrefabInstance: {fileID: 1271286949}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1271286951
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271286950}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ac0c52a2f696be744aa7d3098866e549, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1273748944
 GameObject:
   m_ObjectHideFlags: 0
